@@ -22,6 +22,6 @@ jobs:
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: Hangzhou Weather Report
           body: file://result.html
-          to: 200684796@qq.com, 799554191@qq.com, 122407187@qq.com
+          to: 200684796@qq.com,799554191@qq.com,122407187@qq.com
           from: GitHub Actions
           content_type: text/html
